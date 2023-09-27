@@ -10,13 +10,25 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* MARGINI */
+/* LUNGHEZZE */
+
+.w-50 {
+    width: 50%;
+}
 
 
 /* PADDING */
 
 .pt-80 {
     padding-top: 80px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pr-20 {
+    padding-right: 20px;
 }
 
 .pb-40 {
@@ -38,11 +50,19 @@ body {
     justify-content: space-between;
 }
 
+.j-start {
+    justify-content: flex-start;
+}
+
 .wrapped {
     flex-wrap: wrap;
 }
 
 /* TESTI */
+
+.righted {
+    text-align: right;
+}
 
 h4 {
     font-weight: 700;
@@ -89,6 +109,8 @@ h4 {
     color: grey;
     text-decoration: line-through;
 }
+
+
 /* HEART */
 
 .heart {
@@ -103,7 +125,6 @@ h4 {
 
 .heart:hover {
     color: red;
-    cursor: pointer;
 }
 
 
@@ -119,6 +140,11 @@ header {
 .leftHeader {
     width: 25%;
     text-align: left;
+}
+
+.leftHeader > span {
+    font-weight: 500;
+    margin-right: 5px;
 }
 
 .rightHeader {
@@ -158,7 +184,7 @@ img {
     max-height: 100%;
 }
 
-/* HOVER IMAGE */
+/* HOVER  */
 
 .hoverImg {
     display: none;
@@ -172,5 +198,27 @@ img {
     display: inline-block;
 }
 
+.pointer {
+    cursor: pointer;
+}
 
+/********************* FOOTER */
+
+footer {
+    background-color: #1a1a1a;
+    height: 100px;
+}
+
+/*************** TESTI FOOTER */
+
+.footerText {
+    font-size: 12px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.socialBox > i {
+    padding: 4px 4px;
+    margin-top: 20px;
+}
 
