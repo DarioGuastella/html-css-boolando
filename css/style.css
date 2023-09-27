@@ -9,6 +9,54 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* MARGINI */
+
+.rightHeader > i {
+    padding: 0 2px;
+}
+/* PADDING */
+
+.pt-20 {
+    padding-top: 20px;
+}
+/******************** FLEX BOX */
+
+.d-flex {
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapped {
+    flex-wrap: wrap;
+}
+
+/* TESTI */
+
+h4 {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.sconto {
+    position: absolute;
+	bottom: 50px;
+    left: 0;
+    background-color: red;
+    padding: 4px 8px;
+}
+
+.extra {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    background-color: green;
+    padding: 4px 8px;
+}
 /********************* HEADER */
 header {
     background-color: #ff6900;
@@ -37,29 +85,19 @@ header {
     max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-
-
 }
 
-/******************** FLEX BOX */
+/******************* MAIN */
 
-.d-flex {
-    display: flex;
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
-    align-items: center;
+.itemCard {
+    width: 32%;
 }
 
-/* MARGINI */
-
-.rightHeader > i {
-    padding: 0 2px;
+.itemCard > img {
+    max-width: 100%;
 }
 
-/* TESTI */
-
-h4 {
-    font-weight: 700;
-    font-size: 13px;
+.relative {
+    position: relative;
 }
+
