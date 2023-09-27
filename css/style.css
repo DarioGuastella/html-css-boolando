@@ -12,14 +12,21 @@ body {
 
 /* MARGINI */
 
+
+/* PADDING */
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
 .rightHeader > i {
     padding: 0 2px;
 }
-/* PADDING */
 
-.pt-20 {
-    padding-top: 20px;
-}
 /******************** FLEX BOX */
 
 .d-flex {
@@ -44,7 +51,7 @@ h4 {
 
 .sconto {
     position: absolute;
-	bottom: 50px;
+	bottom: 130px;
     left: 0;
     background-color: red;
     padding: 4px 8px;
@@ -52,13 +59,59 @@ h4 {
 
 .extra {
     position: absolute;
-    bottom: 50px;
+    bottom: 130px;
     left: 60px;
     background-color: green;
     padding: 4px 8px;
 }
+
+.extraPlus {
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    background-color: green;
+    padding: 4px 8px;
+}
+
+.textBox {
+    color: black;
+}
+
+.brand {
+    font-size: 12px;
+}
+.itemPrice {
+    color: red;
+}
+
+.greyedOut {
+    margin-left: 8px;
+    color: grey;
+    text-decoration: line-through;
+}
+/* HEART */
+
+.heart {
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
 /********************* HEADER */
 header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
     background-color: #ff6900;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -89,15 +142,35 @@ header {
 
 /******************* MAIN */
 
-.itemCard {
+.w-32 {
     width: 32%;
 }
 
-.itemCard > img {
+img {
     max-width: 100%;
 }
 
 .relative {
     position: relative;
 }
+
+.imgBox {
+    max-height: 100%;
+}
+
+/* HOVER IMAGE */
+
+.hoverImg {
+    display: none;
+}
+
+.imgBox:hover .mainImg {
+    display: none;
+}
+
+.imgBox:hover .hoverImg {
+    display: inline-block;
+}
+
+
 
