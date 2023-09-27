@@ -1,3 +1,65 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+/********************* HEADER */
+header {
+    background-color: #ff6900;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.leftHeader {
+    width: 25%;
+    text-align: left;
+}
+
+.rightHeader {
+    width: 25%;
+    text-align: right;
+}
+
+.centerHeader {
+    width: 50%;
+    text-align: center;
+    max-height: 100%;
+}
+
+.centerHeader img {
+    width: 25%;
+    height: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+/******************** FLEX BOX */
+
+.d-flex {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* MARGINI */
+
+.rightHeader > i {
+    padding: 0 2px;
+}
+
+/* TESTI */
+
+h4 {
+    font-weight: 700;
+    font-size: 13px;
 }
